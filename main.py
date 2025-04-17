@@ -117,7 +117,7 @@ def main(google_sheet):
         update_sheet_with_results(result["worksheet"], check_results)
 
 # Перевірка Google таблиці
-google_sheet = "https://docs.google.com/spreadsheets/d/1cC54bS7xl1yTP9uE4QTnTHaliuiGbjIdsXjFkRaYStg/edit?pli=1&gid=0#gid=0" # @param {"type":"string"}
+google_sheet = google_sheet
 
 # Запуск головної функції
 if __name__ == "__main__":
