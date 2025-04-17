@@ -1,0 +1,7 @@
+pandas
+gspread
+google-auth
+google-colab
+requests
+beautifulsoup4
+chardet 
