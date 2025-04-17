@@ -127,7 +127,7 @@ def main(google_sheet):
         update_sheet_with_results(result["worksheet"], check_results)
 
 # Перевірка Google таблиці
-google_sheet = google_sheet
+google_sheet = google_sheet_url
 
 # Запуск головної функції
 if __name__ == "__main__":
