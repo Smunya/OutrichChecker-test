@@ -1,3 +1,13 @@
+import sys
+
+if len(sys.argv) > 1:
+    google_sheet_url = sys.argv[1]
+    print(f"Отримано URL Google Sheet: {google_sheet_url}")
+    # Тепер ви можете використовувати змінну google_sheet_url у вашому скрипті
+else:
+    print("Помилка: URL Google Sheet не передано як аргумент командного рядка.")
+    sys.exit(1)
+
 # Встановлення необхідних бібліотек тільки якщо вони відсутні
 import importlib.util
 import sys
