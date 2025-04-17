@@ -23,7 +23,7 @@ def test_none_input():
 def test_strip_and_lowercase():
     # Перевіряємо: обрізання зайвих пробілів та приведення до нижнього регістру
     text = "  Hello   World  "
-    assert utils.normalize_text(text) == "Hello World"
+    assert utils.normalize_text(text) == "hello world"
 
 
 def test_remove_diacritics():
